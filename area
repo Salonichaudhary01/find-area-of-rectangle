@@ -1,0 +1,10 @@
+print("1-->area of rectangle")
+print("2-->perimeter of rectangle")
+ch = int(input("enter your choice"))
+a = int(input("enter your length"))
+b = int(input("enter the breadth"))
+
+if ch == 1:
+        print(a * b)
+else:
+        print(2*(a+b))
